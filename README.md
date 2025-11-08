@@ -1,6 +1,6 @@
 # MyMainWebsite
 
-![Website Status](https://img.shields.io/badge/website-live-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white) 🚀
+![Website Status](https://img.shields.io/badge/website-offline-red?style=for-the-badge&logo=googlechrome&logoColor=white) 🚧
 
 Creating my first website after following the Odin Project.
 
@@ -8,10 +8,10 @@ Creating my first website after following the Odin Project.
 
 This repository contains the source for my personal website.
 
-**🟢 Status:** Site is live and deployed!
+**🔴 Status:** Site is currently not live.
 
 **🔗 Visit:** [https://garychamp.github.io/MyMainWebsite](https://garychamp.github.io/MyMainWebsite)
 
 ---
 
-*Last updated: 2025-11-02 by @Garychamp*
+*Last updated: 2025-11-08 by @Garychamp*

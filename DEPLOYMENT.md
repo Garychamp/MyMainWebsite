@@ -1,26 +1,34 @@
 # Deployment Status
 
-## ⚠️ This website is NOT deployed
+## ✅ This website IS deployed
 
-This repository contains source code for a personal website project, but it is **intentionally not deployed** to any hosting platform.
+This repository contains source code for a personal website project that is **automatically deployed** to GitHub Pages.
 
-### Why is this not deployed?
+### Where is it deployed?
 
-This is a development/learning project and the owner has chosen not to deploy it publicly at this time.
+The website is live at: [https://garychamp.github.io/MyMainWebsite](https://garychamp.github.io/MyMainWebsite)
 
-### What if I want to view it?
+### How does deployment work?
 
-You can view the website locally by:
+- **Automatic Deployment**: Changes pushed to the `main` branch are automatically deployed via GitHub Actions
+- **Manual Deployment**: Can also be triggered manually from the Actions tab
+- **Build Time**: Typically takes 1-2 minutes to deploy changes
 
-1. Clone this repository
-2. Open `index.html` in a web browser
-3. Use a local development server (e.g., `python -m http.server` or VS Code Live Server)
+### Viewing the Website
 
-### Will this be deployed in the future?
+You can view the website in two ways:
 
-There are no current plans to deploy this website. If deployment is needed in the future, this document will be updated accordingly.
+1. **Online**: Visit [https://garychamp.github.io/MyMainWebsite](https://garychamp.github.io/MyMainWebsite)
+2. **Locally**: Clone this repository and open `index.html` in a web browser, or use a local development server (e.g., `python -m http.server` or VS Code Live Server)
+
+### Deployment Configuration
+
+The deployment is configured through GitHub Actions workflow (`.github/workflows/deploy.yml`) which:
+- Triggers on push to main branch
+- Uses GitHub Pages for hosting
+- Deploys all static files (HTML, CSS, JS, media)
 
 ---
 
 **Last Updated:** November 2025  
-**Status:** Not Deployed
+**Status:** Deployed to GitHub Pages
